@@ -1,99 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
 </head>
+
 <body>
-    <h1>Forms Demo</h1>
-    <form action="/tacos">
-        <button type="button">Please Do Not Submit the Form</button>
-        <br>
-        <label for="username">Enter a username: </label>
-        <input id = "username" type="text" placeholder="Username" name="Username">
-        <br>
-        <label for="password">Enter your password: </label>
-        <input id="password" type="password" placeholder="Enter your password" name="password">
+    <h1>Race Registration!</h1>
+    <form action="">
         <p>
-            <button>In the Middle</button>
-        </p>
-        <br>
-        <label for="color">Choose a color: </label>
-        <input id="color" type="color" name="color">
-        <br>
-        <label for="number">Enter a number: </label>
-        <input id="number" type="number" name="number" min="2" max="1000">
-        <p>
-            <button>Submit!!!</button>
+            <label for="first">First Name</label>
+            <input type="text" id="first" placeholder="Enter your First name">
+            <label for="last">Last Name</label>
+            <input type="text" id="last" placeholder="Enter your Last name">
         </p>
         <p>
-            <input type="submit" value="Click Me!">
-        </p>
-    </form>
-    <hr>
-    <button>Outside the form</button>
-    <h3>Search reddit</h3>
-    <form action="https://www.reddit.com/search">
-        <input type="text" name="q">
-        <button>Search Reddit</button>
-    </form>
-    <h3>Search Google</h3>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <button>Search Google</button>
-    </form>
-    <h3>Search Youtube</h3>
-    <form action="https://www.youtube.com/search">
-        <input type="text" name="q">
-        <button>Search Youtube</button>
-    </form>
-    <h2>More inputs</h2>
-    <form action="/birds">
-        <input type="checkbox" name="agree_tos" id="agree">
-        <label for="agree">I agree to everything</label>
-        <p>
-            <label for="xs">XS</label>
-            <input type="radio" name="size" id="xs" value="xs">
-            <label for="m">M</label>
-            <input type="radio" name="size" id="m" value="m">
-            <label type="l">L</label>
-            <input type="radio" name="size" id="l" value="l">
+            <label for="funrun">Fun Run 5k</label>
+            <input type="radio" id="funrun" name="Race" value="funrun">
+            <br>
+            <label for="half">Half Marathon</label>
+            <input type="radio" id="half" name="Race" value="half">
+            <br>
+            <label for="full">Full Marathon</label>
+            <input type="radio" id="full" name="Race" value="full">
         </p>
         <p>
-            <label for="">Please select an option</label>
-            <select name="meal" id="meal">
-                <option value="fish">Fish</option>
-                <option value="veg">Veg</option>
-                <option value="steak" selected>Steak</option>
-                <option value="Chicken">Chicken</option>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="abc@xyz.com">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="passsword" placeholder="Enter your password">
+        </p>
+        <p>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option value="18-">Below 18</option>
+                <option value="18-50">18-50</option>
+                <option value="50+">50+</option>
             </select>
         </p>
         <p>
-            <label for="cheese">Amount of Cheese</label>
-            <input type="range" name="cheese level" id="cheese" min="1" max="100" step="2">
+            <button>Register</button>
         </p>
-        <p>
-            <label for="requests">Any Special Requests?</label>
-            <textarea name="requests" id="requests" cols="20" rows="10" placeholder="Type something here"></textarea>
-        </p>
-        <button>Submit</button>
-    </form>
-
-<!--Validations-->
-    <h2>Validations Demo</h2>
-    <form action="/dummy">
-        <label for="first">Enter First Name</label>
-        <input type="text" name="first" id="first" required>
-        <p>
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" minlength="5" maxlength="20">
-        </p>
-        <p>
-            <input type="email"> 
-        </p>
-        <button>Submit</button>
     </form>
 </body>
+
 </html>
