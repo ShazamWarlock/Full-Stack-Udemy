@@ -1,3 +1,15 @@
 h2{
-    color: blueviolet;
+    color: teal;
+    background-color: yellowgreen;
+}
+
+button{
+    color: white;
+    background-color: rgb(5, 63, 57);
+}
+
+p{
+    color:brown;
+    background-color: yellow;
+    
 }
