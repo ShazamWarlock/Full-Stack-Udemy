@@ -85,10 +85,14 @@ button:active{
     color:chartreuse;
 }
 
+.post button:hover{
+    color:aquamarine;
+    background-color: black;
+}
 
 .post button:active{
-    background-color:aquamarine;
-    color:black;
+    background-color:rgb(166, 197, 75);
+    color:rgb(125, 3, 3);
 }
 
 .post a:hover{
@@ -131,11 +135,6 @@ p::selection{
     background-color:rgb(199, 199, 248);
 }
 
-.post button:hover{
-    color:aquamarine;
-    background-color: black;
-}
-
-button:hover{
-    background-color:yellow;
-}
+/*button{
+    background-color:teal !important;
+}*/
