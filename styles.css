@@ -13,3 +13,7 @@ p{
     background-color: yellow;
 }
 
+input[type="password"] {
+    /*background-color: black;*/
+    color: rgb(53, 214, 28);
+}
