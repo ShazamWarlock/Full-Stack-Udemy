@@ -85,10 +85,6 @@ button:active{
     color:chartreuse;
 }
 
-.post button:hover{
-    color:aquamarine;
-    background-color: black;
-}
 
 .post button:active{
     background-color:aquamarine;
@@ -133,4 +129,13 @@ p::selection{
 #search{
     color:rgba(178, 15, 69, 0.965);
     background-color:rgb(199, 199, 248);
+}
+
+.post button:hover{
+    color:aquamarine;
+    background-color: black;
+}
+
+button:hover{
+    background-color:yellow;
 }
