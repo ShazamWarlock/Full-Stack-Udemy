@@ -1,140 +1,42 @@
-*/*{
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:antiquewhite;
-}
-*/
-
-body{
-    background-color:rgb(199, 199, 248) ;
+div{
+    width: 200px;
+    
+    background-color: #fe6d73;
 }
 
-h1,h2{
-    color: black;
+h1{
+    background-color:#f94144 ;
+    width: 100px;
 }
 
-hr{
-    background-color:red;
+#one{
+    background-color: #277da1;
+    border-width: 5px;
+    border-color: #053c5e;
+    border-style: solid;
+    box-sizing:border-box;
+    border-radius: 10%;
 }
 
-button{
-    font-size: 20px;
-    background-color:cadetblue ;
-    color: aliceblue;
+#two{
+    background-color: #43aa8b;
+    border-width: 5px;
+    border-color:#83c5be;
+    border-style:double;
+    box-sizing: border-box;
+    border-left-width: 8px;
+    border-radius: 10%;
 }
 
-#Signup{
-    background-color: darkgoldenrod;
-    color: rgb(255, 253, 253);
+#two:hover{
+    background-color: #01befe;
 }
 
-span{
-    color: blue;
+#three{
+    background-color: #74c69d;
+    border: 5px solid #9bf6ff;
+    border-left-style: dashed;
+    box-sizing: border-box;
+    border-radius:10%;
+    
 }
-
-.tag{
-    color: rgb(38, 8, 185);
-    background-color: rgb(239, 239, 75);
-}
-
-.post a{
-    color:rgb(243, 13, 63);
-    font-style: bold;
-    text-decoration: none;
-}
-
-/*adjacent selectors*/
-input + button{
-    background-color: brown;
-}
-
-h2 + button{
-    background-color: maroon;
-}
-
-/*direct child*/
-footer>a{
-    color:crimson;
-}
-
-/*attribute selector*/
-input[type="password"]{
-    color:gold;
-    background-color: black;
-}
-
-section.post{
-    color: gold;
-}
-
-a[href*="#home"]{
-    color:rgb(224, 145, 41);
-}
-
-a:hover{
-    color:crimson;
-    background-color: black;
-}
-
-button:hover{
-    color:red;
-    background-color: black;
-}
-
-button:active{
-    color:chartreuse;
-}
-
-.post button:hover{
-    color:aquamarine;
-    background-color: black;
-}
-
-.post button:active{
-    background-color:rgb(166, 197, 75);
-    color:rgb(125, 3, 3);
-}
-
-.post a:hover{
-    text-decoration:underline solid;
-}
-
-#Signup:hover{
-    color:greenyellow;
-    background-color: black;
-}
-
-#Signup:active{
-    color: white;
-    background-color: greenyellow;
-}
-
-.post a:active{
-    color:aquamarine;
-    background-color: cadetblue;
-}
-
-.post:nth-of-type(2n){
-    background-color: rgb(106, 106, 238);
-}
-
-h2::first-letter{
-    font-size: 30px;
-}
-
-p::first-line{
-    color:blueviolet;
-}
-
-p::selection{
-    background-color: rgb(204, 226, 34);
-}
-
-#search{
-    color:rgba(178, 15, 69, 0.965);
-    background-color:rgb(199, 199, 248);
-}
-
-/*button{
-    background-color:teal !important;
-}*/
