@@ -7,6 +7,8 @@ div{
 h1{
     background-color:#f94144 ;
     width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 
 #one{
@@ -16,6 +18,7 @@ h1{
     border-style: solid;
     box-sizing:border-box;
     border-radius: 10%;
+    padding: 10px;
 }
 
 #two{
@@ -26,6 +29,7 @@ h1{
     box-sizing: border-box;
     border-left-width: 8px;
     border-radius: 10%;
+    padding: 10px;
 }
 
 #two:hover{
@@ -38,5 +42,9 @@ h1{
     border-left-style: dashed;
     box-sizing: border-box;
     border-radius:10%;
-    
+    padding: 10px;
+}
+
+button{
+    padding: 0px 20px 0px 20px
 }
