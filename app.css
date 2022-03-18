@@ -6,11 +6,15 @@
 */
 
 body{
-    background-color:bisque ;
+    background-color:rgb(199, 199, 248) ;
 }
 
 h1,h2{
     color: black;
+}
+
+hr{
+    background-color:red;
 }
 
 button{
@@ -36,6 +40,7 @@ span{
 .post a{
     color:rgb(243, 13, 63);
     font-style: bold;
+    text-decoration: none;
 }
 
 /*adjacent selectors*/
@@ -65,3 +70,48 @@ section.post{
 a[href*="#home"]{
     color:rgb(224, 145, 41);
 }
+
+a:hover{
+    color:crimson;
+    background-color: black;
+}
+
+button:hover{
+    color:red;
+    background-color: black;
+}
+
+button:active{
+    color:chartreuse;
+}
+
+.post button:hover{
+    color:aquamarine;
+    background-color: black;
+}
+
+.post button:active{
+    background-color:aquamarine;
+    color:black;
+}
+
+.post a:hover{
+    text-decoration:underline solid;
+}
+
+#Signup:hover{
+    color:greenyellow;
+    background-color: black;
+}
+
+#Signup:active{
+    color: white;
+    background-color: greenyellow;
+}
+
+.post a:active{
+    color:aquamarine;
+    background-color: cadetblue;
+}
+
+.post:nth-of-type()
