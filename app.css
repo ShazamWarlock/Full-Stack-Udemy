@@ -114,4 +114,23 @@ button:active{
     background-color: cadetblue;
 }
 
-.post:nth-of-type()
+.post:nth-of-type(2n){
+    background-color: rgb(106, 106, 238);
+}
+
+h2::first-letter{
+    font-size: 30px;
+}
+
+p::first-line{
+    color:blueviolet;
+}
+
+p::selection{
+    background-color: rgb(204, 226, 34);
+}
+
+#search{
+    color:rgba(178, 15, 69, 0.965);
+    background-color:rgb(199, 199, 248);
+}
