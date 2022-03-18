@@ -21,7 +21,7 @@ button{
 
 #Signup{
     background-color: darkgoldenrod;
-    color: black;
+    color: rgb(255, 253, 253);
 }
 
 span{
@@ -36,4 +36,18 @@ span{
 .post a{
     color:rgb(243, 13, 63);
     font-style: bold;
+}
+
+/*adjacent selectors*/
+input + button{
+    background-color: brown;
+}
+
+h2 + button{
+    background-color: maroon;
+}
+
+/*direct child*/
+footer>a{
+    color:crimson;
 }
