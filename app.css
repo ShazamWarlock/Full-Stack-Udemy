@@ -1,62 +1,25 @@
-h1{
-    background-color: #fdc500;
-    border: 5px solid #14213d;
-    color: #cbf3f0;
-    padding: 0.7em;
-    width: 300px;
-    font-size: 1.8em;
-    text-align: center;
-    margin: 20px auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+body{
+    background-color: #003566 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-h1:nth-of-type(2n){
-    background-color: #c9184a;
-    
+button{
+    background: none;
+    color: #ff9f1c;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
-h1:nth-of-type(3n){
-    background-color: #007200;
+button:hover{
+    border-color: #ccff33;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #ccff33;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
-h1:nth-of-type(4n){
-    background-color: #2ec4b6;
-}
-
-section:first-of-type h1:nth-of-type(1){
-    transform-origin: top right;
-    transform: rotateX(45deg);
-}
-
-section:first-of-type h1:nth-of-type(2){
-    transform: scale(0.6,0.7);
-}
-
-section:first-of-type h1:nth-of-type(3){
-    transform: translateX(100px);
-}
-
-section:first-of-type h1:nth-of-type(4){
-    transform: translateY(100px);
-}
-
-section:nth-of-type(2) h1:nth-of-type(1){
-    transform: skew(30deg);
-}
-
-section:nth-of-type(2) h1:nth-of-type(2){
-    transform: skew(10deg,5deg);
-}
-
-section:nth-of-type(2) h1:nth-of-type(3){
-    transform: rotate(90deg) scale(1.3);
-}
-
-section:nth-of-type(2) h1:nth-of-type(4){
-    transform: translateX(-200px) rotate(180deg) scaleY(1.5)
-}
-
-section:nth-of-type(2){
-    transform: scale(0.6);
-}
