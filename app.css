@@ -1,18 +1,47 @@
-section{
-    width: 500px;
-    height: 500px;
-    background-color: #8ecae6;
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #00b4d8;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
 }
 
-#rgba{
-    width: 50%;
-    height: 50%;
-    background-color: #4361ee30 ;
+#middle{
+    background-color: #2a9d8f ;
 }
 
-#opacity{
-    width: 50%;
-    height: 50%;
-    background-color: blueviolet;
-    opacity: 0.5;
+#static #middle{
+    position: static;
+    top: 100px;
+}
+
+#relative #middle{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#absolute{
+    position: relative;
+}
+
+#absolute #middle{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#fixed #middle{ 
+    position: fixed;
+    top: 10px;
+    left: 0;
+}
+
+#sticky #middle{
+    position:sticky;
+}
+
+p{
+    width: 20px;
 }
