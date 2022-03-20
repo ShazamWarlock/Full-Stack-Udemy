@@ -1,26 +1,24 @@
-*{
-    background-color:#90e0ef ;
-    opacity: 95%;
-}
-
-img{
-    width: 30%;
-    margin: calc(8%/6);
-    transition: 0.5s;
-}
-
-nav{
-    text-transform: uppercase;
-    font-size: 1.5em;
+body{
     font-family: Roboto, sans-serif;
-    border-bottom: 2px solid #e2f3dd;
-    width: 30%;
-    margin-left: calc(8%6);
-    padding: 1.2em 0;
-    opacity: 50%;
+    font-weight: 300;
 }
 
-img:hover{
-    opacity: 50%;
-    width: 30.5%;
+h1{
+    text-align: center;
+}
+
+#container{
+    background-color: #1d3557;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #1d3557;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
 }
