@@ -13,8 +13,8 @@
 
 <body>
     <div class="container">
-        <h1 class="display-1">Bootstrap Playground</h1>
-        <h2 class="display-4">Buttons</h2>
+        <h1 class="display-1 text-center text-primary">Bootstrap Playground</h1>
+        <h2 class="display-4">Buttons <span class="badge rounded-pill bg-primary">New</span></h2>
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-success">Success</button>
         <button type="button" class="btn btn-info">Info</button>
@@ -23,6 +23,21 @@
         <button type="button" class="btn btn-outline-info btn-lg">Info</button>
         <button type="button" class="btn btn-outline-secondary btn-sm">Secondary</button>
         <button type="button" class="btn btn-outline-success btn-block" disabled>Success Disabled</button>
+        <button class="btn btn-primary">Updates <span class="badge bg-danger">9</span></button>
+        <h3>Button Groups</h3>
+        <div class="btn-group">
+            <button class="btn btn-warning">One</button>
+            <button class="btn btn-danger">Two</button>
+            <button class="btn btn-primary">Three</button>
+        </div>
+        <h3>Alerts</h3>
+        <div class="alert alert-danger alert-dismissible fade show">
+            <h4 class="alert-heading">Oh No!</h4>
+            Danger! You are about to end the world as you know it!
+            <button aria-label="Close" class="btn-close" data-bs-dismiss="alert">
+                <!--<span aria-hidden="true">&times;</span>-->
+            </button>
+        </div>
         <h2 class="display-4">Typography</h2>
         <p class="lead">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam at, accusantium mollitia quidem voluptate
